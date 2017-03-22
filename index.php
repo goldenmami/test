@@ -1,5 +1,5 @@
 <?php
-
+include "connexion.php";
 echo "Hello world from Nokia!";
 $req = $bdd->prepare('INSERT INTO commande(date, civilite, nom, prenom, societe, email, tel, service, pack, type, opt_1, opt_2, opt_3, opt_4, opt_5, precision)
 VALUES(:date, :civilite, :nom, :prenom, :societe, :email, :tel, :service, :pack, :type, :opt_1, :opt_2, :opt_3, :opt_4, :opt_5, :precision)')
