@@ -1,8 +1,7 @@
-sample_php_server
 <?php 
 
 /*phpinfo();  */
-echo "new test! ";
+echo "new test! Hello world!"
 echo $_SERVER['REMOTE_HOST'];
 
 ?>
